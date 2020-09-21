@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.forgot-page {
+  width: 100%;
+  height: 100vh;
+  background: url(streetbackgroundblur.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+  overflow-y: auto;
+  transition: 750ms;
+}
+
+.registerbox {
+  /* size: cover;
+	transition: width 750ms;
+	background: #FFF;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: fixed;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 140px 60px;
+	border-radius: 15px;
+*/
+  background: #fff;
+  width: 90%;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+}
+
+.container {
+  padding: 60px 60px;
+}
+
+.register-title,
+.register-content {
+  text-align: center;
+}
+
+.register-title {
+  color: #ffc817;
+}
+
+.register-content {
+  font-size: 10px;
+  margin: 40px 0;
+  color: #808080;
+}
+.form-group {
+  width: 100%;
+  margin-bottom: 22px;
+}
+.form-group input[type="email"],
+input[type="password"] {
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  height: 40px;
+}
+
+.registerbox input[type="submit"] {
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  background-color: #f6d259;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition-duration: 750ms;
+}
+
+.registerbox input[type="submit"]:hover {
+  background: #ffc817;
+  color: #000;
+}
+
+.registerbox a:hover {
+  cursor: pointer;
+  color: #ffc817;
+}
+
+/* .registerbox input[type="email"]:invalid {
+  color: #ff0000;
+  outline: #000;
+}
+
+.registerbox input[type="password"]:invalid {
+  color: #ff0000;
+} */
