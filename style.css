@@ -78,12 +78,3 @@ input[type="password"] {
   cursor: pointer;
   color: #ffc817;
 }
-
-/* .registerbox input[type="email"]:invalid {
-  color: #ff0000;
-  outline: #000;
-}
-
-.registerbox input[type="password"]:invalid {
-  color: #ff0000;
-} */
